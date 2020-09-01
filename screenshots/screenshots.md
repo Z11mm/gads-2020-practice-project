@@ -11,3 +11,27 @@ These are screenshots of received confirmation emails for completing hands-on Qw
 * ### Cloud Storage
 
 ![Email screenshot for Cloud Storage](./images/lab2.png "Cloud Storage Lab")
+
+* ### Resource Monitoring
+
+![Email screenshot for Resource Monitoring](./images/lab2.png "Resource Monitoring Lab")
+
+* ### Virtual Private Networks(VPN)
+
+![Email screenshot for Virtual Private Networks(VPN)](./images/lab2.png "Virtual Private Networks(VPN) Lab")
+
+* ### Error Reporting and Debugging
+
+![Email screenshot for Error Reporting and Debugging](./images/lab2.png "Error Reporting and Debugging Lab")
+
+* ### Automating the Deployment of Infrastructure Using Terraform
+
+![Email screenshot for Automating the Deployment of Infrastructure Using Terraform](./images/lab2.png "Automating the Deployment of Infrastructure Using Terraform Lab")
+
+* ### Automating the Deployment of Infrastructure Using Deployment Manager
+
+![Email screenshot for Automating the Deployment of Infrastructure Using Deployment Manager](./images/lab2.png "Automating the Deployment of Infrastructure Using Deployment Manager Lab")
+
+* ### Implement Google Private Access and Cloud NAT
+
+![Email screenshot for Implement Google Private Access and Cloud NAT](./images/lab2.png "Implement Google Private Access and Cloud NAT Lab")
