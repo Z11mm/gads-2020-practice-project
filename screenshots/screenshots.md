@@ -38,8 +38,8 @@ These are screenshots of received confirmation emails for completing hands-on Qw
 
 * ### Working With Virtual Machines
 
-![Email screenshot for Working With Virtual Machines](./images/lab8.png "Working With Virtual Machines Lab")
+![Email screenshot for Working With Virtual Machines](./images/lab9.png "Working With Virtual Machines Lab")
 
 * ### Implementing Cloud SQL
 
-![Email screenshot for Implementing Cloud SQL](./images/lab8.png "Implementing Cloud SQL Lab")
+![Email screenshot for Implementing Cloud SQL](./images/lab10.png "Implementing Cloud SQL Lab")
