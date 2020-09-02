@@ -35,3 +35,11 @@ These are screenshots of received confirmation emails for completing hands-on Qw
 * ### Implement Google Private Access and Cloud NAT
 
 ![Email screenshot for Implement Google Private Access and Cloud NAT](./images/lab8.png "Implement Google Private Access and Cloud NAT Lab")
+
+* ### Working With Virtual Machines
+
+![Email screenshot for Working With Virtual Machines](./images/lab8.png "Working With Virtual Machines Lab")
+
+* ### Implementing Cloud SQL
+
+![Email screenshot for Implementing Cloud SQL](./images/lab8.png "Implementing Cloud SQL Lab")
