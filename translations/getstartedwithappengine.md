@@ -46,24 +46,41 @@ Navigate to the source directory:
 > *In this task, you run the Hello World application in a local, virtual environment in Google Cloud Shell.*
 
 Step 1.  
-Execute the following command to download and update the packages list.  
+Execute the following command to download and update the packages list:  
 `sudo apt-get update`  
 
 Step 2.  
-Set up a virtual environment in which you will run your application. Python virtual environments are used to isolate package installations from the system.  
+Set up a virtual environment in which you will run your application. Python virtual environments are used to isolate package installations from the system:  
 `sudo apt-get install virtualenv`  
-> *If prompted [Y/n], press Y and then `Enter`.*  
+> *If prompted [Y/n], press Y and then `Enter`.*    
 Then,  
 `virtualenv -p python3 venv`  
 
 Step 3.  
-Activate the virtual environment.  
+Activate the virtual environment:   
 `source venv/bin/activate`  
 
 Step 4.  
-Navigate to your project directory and install dependencies.  
+Navigate to your project directory and install dependencies:   
 `pip install  -r requirements.txt`  
 
 Step 5.  
 Run the application:  
 `python main.py`
+
+Step 6.  
+To end the test, press `Ctrl+C` to abort the deployed service.
+
+### Task 3: Deploy and run Hello World on App Engine 
+
+To deploy your application to the App Engine Standard environment:  
+
+Step 1.  
+Navigate to the source directory:  
+`cd ~/python-docs-samples/appengine/standard_python3/hello_world`  
+
+Step 2.  
+Deploy your Hello World application:  
+`gcloud app deploy`  
+> *If prompted "Do you want to continue (Y/n)?", press Y and then `Enter`.*  
+> *This `app deploy` command uses the __app.yaml__ file to identify project configuration.*
