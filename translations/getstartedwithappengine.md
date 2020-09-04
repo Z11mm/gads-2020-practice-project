@@ -20,7 +20,7 @@ In Cloud Shell, you can list the active account name with this command:
 Output:  
 `Credentialed accounts:`  
  `- google1623327_student@qwiklabs.net`  
->> You can list the project ID with this command:  
+You can list the project ID with this command:  
 `gcloud config list project`  
 Output:  
 `[core]
