@@ -15,8 +15,7 @@ In this lab, you learn how to perform the following tasks:
 4. __Disable an App Engine application, when you no longer want it to be visible.__
 
 > *You will activate Google Cloud Shell for this lab.  
->
->> In Cloud Shell, you can list the active account name with this command:  
+In Cloud Shell, you can list the active account name with this command:  
 `gcloud auth list`  
 Output:  
 `Credentialed accounts:`  
