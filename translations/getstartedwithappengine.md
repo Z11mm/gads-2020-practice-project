@@ -83,4 +83,8 @@ Step 2.
 Deploy your Hello World application:  
 `gcloud app deploy`  
 > *If prompted "Do you want to continue (Y/n)?", press Y and then `Enter`.*  
-> *This `app deploy` command uses the __app.yaml__ file to identify project configuration.*
+> *This `app deploy` command uses the __app.yaml__ file to identify project configuration.*  
+
+Step 3.  
+Launch your browser to view the app at http://YOUR_PROJECT_ID.appspot.com:  
+`gcloud app browse`  
