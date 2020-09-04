@@ -19,8 +19,8 @@ In this lab, you learn how to perform the following tasks:
 >> In Cloud Shell, you can list the active account name with this command:  
 `gcloud auth list`  
 Output:  
-`Credentialed accounts:
- - google1623327_student@qwiklabs.net`  
+`Credentialed accounts:`
+ `- google1623327_student@qwiklabs.net`  
 >> You can list the project ID with this command:  
 `gcloud config list project`  
 Output:  
