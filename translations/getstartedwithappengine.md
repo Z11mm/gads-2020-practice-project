@@ -17,6 +17,6 @@ In this lab, you learn how to perform the following tasks:
 4. Disable an App Engine application, when you no longer want it to be visible.
 
 *You will need to have downloaded the Google Cloud SDK and installed it on your machine. 
-To set up your development environment, type in the command `gcloud init` and follow the prompts.
-You will need your project ID for this lab. Save it as an environment variable as follows - 
+To set up your development environment, type in the command `gcloud init` and follow the prompts.  
+You will need your project ID for this lab. Save it as an environment variable as follows -  
 `export DEVSHELL_PROJECT_ID=<your project ID>`*
