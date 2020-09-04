@@ -1,7 +1,5 @@
 # Google Cloud Fundamentals: Getting Started With App Engine
 
-## Overview
-
 In this lab, you create and deploy a simple App Engine application using a virtual environment in the Google Cloud Shell.
 
 ## Objectives
@@ -23,6 +21,15 @@ Then, save it as an environment variable with this command `export DEVSHELL_PROJ
 
 ### Task 1: Initialize App Engine
 
-Step 1. Initialize your App Engine app with your project and choose its region:
+Step 1.  
+Initialize your App Engine app with your project and choose its region:  
 `gcloud app create --project=$DEVSHELL_PROJECT_ID`  
 > *When prompted, select the region where you want your App Engine application located.*
+
+Step 2.  
+Clone the source code repository for a sample application in the hello_world directory:  
+`git clone https://github.com/GoogleCloudPlatform/python-docs-samples`
+
+Step 3.  
+Navigate to the source directory:  
+`cd python-docs-samples/appengine/standard_python3/hello_world`
