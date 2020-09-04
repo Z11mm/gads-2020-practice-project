@@ -25,7 +25,7 @@ Output:
 `gcloud config list project`  
 Output:  
 `[core]
-project = qwiklabs-gcp-44776a13dea667a6`  
+project = qwiklabs-gcp-44776a13dea667a6`*
 
 ### Task 1: Initialize App Engine
 
