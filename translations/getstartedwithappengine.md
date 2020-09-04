@@ -31,7 +31,7 @@ project = qwiklabs-gcp-44776a13dea667a6`*
 Step 1.  
 Initialize your App Engine app with your project and choose its region:  
 `gcloud app create --project=$DEVSHELL_PROJECT_ID`  
-> *When prompted, select the region where you want your App Engine application located. A region is specified in lab credentials.*
+> *When prompted, select the region where you want your App Engine application located. A region is specified in the lab credentials.*
 
 Step 2.  
 Clone the source code repository for a sample application in the hello_world directory:  
@@ -48,3 +48,22 @@ Navigate to the source directory:
 Step 1.  
 Execute the following command to download and update the packages list.  
 `sudo apt-get update`  
+
+Step 2.  
+Set up a virtual environment in which you will run your application. Python virtual environments are used to isolate package installations from the system.  
+`sudo apt-get install virtualenv`  
+> *If prompted [Y/n], press Y and then `Enter`.*  
+Then,  
+`virtualenv -p python3 venv`  
+
+Step 3.  
+Activate the virtual environment.  
+`source venv/bin/activate`  
+
+Step 4.  
+Navigate to your project directory and install dependencies.  
+`pip install  -r requirements.txt`  
+
+Step 5.  
+Run the application:  
+`python main.py`
