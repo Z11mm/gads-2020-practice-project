@@ -46,4 +46,4 @@ These are screenshots of received confirmation emails for completing hands-on Qw
 
 * ### Google Cloud Fundamentals: Getting Started With App Engine
 
-![Email screenshot for Google Cloud Fundamentals: Getting Started With App Engine](./images/lab10.png "Google Cloud Fundamentals: Getting Started With App Engine Lab")
+![Email screenshot for Google Cloud Fundamentals: Getting Started With App Engine](./images/lab11.png "Google Cloud Fundamentals: Getting Started With App Engine Lab")
