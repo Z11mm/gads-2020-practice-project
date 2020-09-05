@@ -86,4 +86,21 @@ View the new service:
 Step 5.  
 Open a new web browser tab and paste your cluster's external IP address into the address bar. The default home page of the Nginx browser is displayed.
 
+Step 6.  
+Scale up the number of pods running on your service:  
+`kubectl scale deployment nginx --replicas 3`
 
+> *Scaling up a deployment is useful when you want to increase available resources for an application that is becoming more popular.*
+
+Step 7.  
+Confirm that Kubernetes has updated the number of pods:  
+`kubectl get pods`
+
+Step 8.  
+Confirm that your external IP address has not changed:  
+`kubectl get services`
+
+Step 9.  
+Return to the web browser tab in which you viewed your cluster's external IP address. Refresh the page to confirm that the nginx web server is still responding.
+
+__End of lab!__
