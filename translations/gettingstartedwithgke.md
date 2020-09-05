@@ -8,7 +8,7 @@ In this lab, you learn how to perform the following tasks:
 
 1. __Provision a Kubernetes cluster using Kubernetes Engine.__
 
-2. __Deploy and manage Docker containers using kubectl.__
+2. __Deploy and manage Docker containers using `kubectl`.__
 
 ### Task 1: Sign in to the Google Cloud Platform (GCP) Console
 
@@ -39,4 +39,24 @@ To enable the Container Registry API:
 `gcloud services enable containerregistry.googleapis.com --project <your project ID>`  
 
 ### Task 3: Start a Kubernetes Engine cluster
+
+Step 1.  
+For convenience, place the zone that Qwiklabs assigned you to into an environment variable called MY_ZONE. Your complete command will look similar to this:  
+`export MY_ZONE=us-central1-a`  
+
+Step 2.  
+Start a Kubernetes cluster managed by Kubernetes Engine. Name the cluster __webfrontend__ and configure it to run 2 nodes:  
+`gcloud container clusters create webfrontend --zone $MY_ZONE --num-nodes 2`  
+> *It takes several minutes to create a cluster as Kubernetes Engine provisions virtual machines for you.*  
+
+Step 3.  
+After the cluster is created, check your installed version of Kubernetes using the kubectl version command:  
+`kubectl version`  
+> *The `gcloud container clusters create` command automatically authenticated `kubectl` for you.*  
+> You may need to install `kubectl` by running the following command:  
+`gcloud components install kubectl`  
+
+### Task 4: Run and deploy a container
+
+Step 1.  
 
