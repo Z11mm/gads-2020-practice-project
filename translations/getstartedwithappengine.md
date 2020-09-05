@@ -88,3 +88,8 @@ Deploy your Hello World application:
 Step 3.  
 Launch your browser to view the app at http://YOUR_PROJECT_ID.appspot.com:  
 `gcloud app browse`  
+
+Step 4.  
+App Engine offers no option to __undeploy__ an application. After an application is deployed, it remains deployed. However, you can disable the application in the Cloud Console, which causes it to no longer be accessible to users.  
+
+__End of lab!__
