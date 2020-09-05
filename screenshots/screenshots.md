@@ -43,3 +43,7 @@ These are screenshots of received confirmation emails for completing hands-on Qw
 * ### Implementing Cloud SQL
 
 ![Email screenshot for Implementing Cloud SQL](./images/lab10.png "Implementing Cloud SQL Lab")
+
+* ### Google Cloud Fundamentals: Getting Started With App Engine
+
+![Email screenshot for Google Cloud Fundamentals: Getting Started With App Engine](./images/lab10.png "Google Cloud Fundamentals: Getting Started With App Engine Lab")
