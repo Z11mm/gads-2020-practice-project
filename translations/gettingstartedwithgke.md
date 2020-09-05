@@ -53,10 +53,37 @@ Step 3.
 After the cluster is created, check your installed version of Kubernetes using the kubectl version command:  
 `kubectl version`  
 > *The `gcloud container clusters create` command automatically authenticated `kubectl` for you.*  
+>
 > You may need to install `kubectl` by running the following command:  
 `gcloud components install kubectl`  
 
 ### Task 4: Run and deploy a container
 
 Step 1.  
+From your Cloud Shell prompt, launch a single instance of the nginx container(Nginx is a popular web server):  
+`kubectl create deploy nginx --image=nginx:1.17.10`  
+
+> *In Kubernetes, all containers run in pods. This use of the `kubectl create` command caused Kubernetes to create a deployment consisting of a single pod containing the nginx container. A Kubernetes deployment keeps a given number of pods up and running even in the event of failures among the nodes on which they run. In this command, you launched the default number of pods, which is 1.*
+
+Step 2.  
+View the pod running the nginx container:  
+`kubectl get pods`
+
+Step 3.  
+Expose the nginx container to the Internet:  
+`kubectl expose deployment nginx --port 80 --type LoadBalancer`
+
+> *Kubernetes created a service and an external load balancer with a public IP address attached to it. The IP address remains the same for the life of the service. Any network traffic to that public IP address is routed to pods behind the service: in this case, the nginx pod.*
+
+Step 4.  
+View the new service:  
+`kubectl get services`  
+
+> *You can use the displayed external IP address to test and contact the nginx container remotely.*
+>
+> *It may take a few seconds before the __External-IP__ field is populated for your service. This is normal. Just re-run the kubectl get services command every few seconds until the field is populated.*
+
+Step 5.  
+Open a new web browser tab and paste your cluster's external IP address into the address bar. The default home page of the Nginx browser is displayed.
+
 
