@@ -4,50 +4,50 @@ These are screenshots of received confirmation emails for completing hands-on Qw
 
 ## Screenshots List
 
-* ### Examining Billing Data With BigQuery
+1. ### Examining Billing Data With BigQuery
 
 ![Email screenshot for Examining Billing Data With BigQuery](./images/lab1.png "Examining Billing Data With BigQuery Lab")
 
-* ### Cloud Storage
+2. ### Cloud Storage
 
 ![Email screenshot for Cloud Storage](./images/lab2.png "Cloud Storage Lab")
 
-* ### Resource Monitoring
+3. ### Resource Monitoring
 
 ![Email screenshot for Resource Monitoring](./images/lab3.png "Resource Monitoring Lab")
 
-* ### Virtual Private Networks(VPN)
+4. ### Virtual Private Networks(VPN)
 
 ![Email screenshot for Virtual Private Networks(VPN)](./images/lab4.png "Virtual Private Networks(VPN) Lab")
 
-* ### Error Reporting and Debugging
+5. ### Error Reporting and Debugging
 
 ![Email screenshot for Error Reporting and Debugging](./images/lab5.png "Error Reporting and Debugging Lab")
 
-* ### Automating the Deployment of Infrastructure Using Terraform
+6. ### Automating the Deployment of Infrastructure Using Terraform
 
 ![Email screenshot for Automating the Deployment of Infrastructure Using Terraform](./images/lab6.png "Automating the Deployment of Infrastructure Using Terraform Lab")
 
-* ### Automating the Deployment of Infrastructure Using Deployment Manager
+7. ### Automating the Deployment of Infrastructure Using Deployment Manager
 
 ![Email screenshot for Automating the Deployment of Infrastructure Using Deployment Manager](./images/lab7.png "Automating the Deployment of Infrastructure Using Deployment Manager Lab")
 
-* ### Implement Google Private Access and Cloud NAT
+8. ### Implement Google Private Access and Cloud NAT
 
 ![Email screenshot for Implement Google Private Access and Cloud NAT](./images/lab8.png "Implement Google Private Access and Cloud NAT Lab")
 
-* ### Working With Virtual Machines
+9. ### Working With Virtual Machines
 
 ![Email screenshot for Working With Virtual Machines](./images/lab9.png "Working With Virtual Machines Lab")
 
-* ### Implementing Cloud SQL
+10. ### Implementing Cloud SQL
 
 ![Email screenshot for Implementing Cloud SQL](./images/lab10.png "Implementing Cloud SQL Lab")
 
-* ### Google Cloud Fundamentals: Getting Started With App Engine
+11. ### Google Cloud Fundamentals: Getting Started With App Engine
 
 ![Email screenshot for Google Cloud Fundamentals: Getting Started With App Engine](./images/lab11.png "Google Cloud Fundamentals: Getting Started With App Engine Lab")
 
-* ### Google Cloud Fundamentals: Getting Started With GKE
+12. ### Google Cloud Fundamentals: Getting Started With GKE
 
 ![Email screenshot for Google Cloud Fundamentals: Getting Started With GKE](./images/lab12.png "Google Cloud Fundamentals: Getting Started With GKE Lab")
