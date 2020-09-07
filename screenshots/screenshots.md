@@ -55,3 +55,7 @@ These are screenshots of received confirmation emails for completing hands-on Qw
 13. ### Google Cloud Fundamentals: Getting Started with Deployment Manager and Cloud Monitoring
 
 ![Email screenshot for Google Cloud Fundamentals: Getting Started with Deployment Manager and Cloud Monitoring](./images/lab13.png "Google Cloud Fundamentals: Getting Started with Deployment Manager and Cloud Monitoring Lab")
+
+14. ### Google Cloud Fundamentals: Getting Started with BigQuery
+
+![Email screenshot for Google Cloud Fundamentals: Getting Started with BigQuery](./images/lab14.png "Google Cloud Fundamentals: Getting Started with BigQuery Lab")
