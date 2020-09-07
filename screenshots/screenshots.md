@@ -51,3 +51,7 @@ These are screenshots of received confirmation emails for completing hands-on Qw
 12. ### Google Cloud Fundamentals: Getting Started With GKE
 
 ![Email screenshot for Google Cloud Fundamentals: Getting Started With GKE](./images/lab12.png "Google Cloud Fundamentals: Getting Started With GKE Lab")
+
+13. ### Google Cloud Fundamentals: Getting Started with Deployment Manager and Cloud Monitoring
+
+![Email screenshot for Google Cloud Fundamentals: Getting Started with Deployment Manager and Cloud Monitoring](./images/lab13.png "Google Cloud Fundamentals: Getting Started with Deployment Manager and Cloud Monitoring Lab")
