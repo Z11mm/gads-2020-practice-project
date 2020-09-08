@@ -62,4 +62,4 @@ These are screenshots of received confirmation emails for completing hands-on Qw
 
 15. ### Console and Cloud Shell
 
-![Email screenshot for Console and Cloud Shell](./images/lab14.png "Console and Cloud Shell Lab")
+![Email screenshot for Console and Cloud Shell](./images/lab15.png "Console and Cloud Shell Lab")
