@@ -59,3 +59,7 @@ These are screenshots of received confirmation emails for completing hands-on Qw
 14. ### Google Cloud Fundamentals: Getting Started with BigQuery
 
 ![Email screenshot for Google Cloud Fundamentals: Getting Started with BigQuery](./images/lab14.png "Google Cloud Fundamentals: Getting Started with BigQuery Lab")
+
+15. ### Console and Cloud Shell
+
+![Email screenshot for Console and Cloud Shell](./images/lab14.png "Console and Cloud Shell Lab")
