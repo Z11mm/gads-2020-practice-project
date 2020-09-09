@@ -8,9 +8,9 @@ Data stored in BigQuery is highly durable. Google stores your data in a replicat
 
 Using BigQuery involves interacting with a number of Google Cloud Platform resources, including projects (covered elsewhere in this course), datasets, tables, and jobs. This lab introduces you to some of these resources, and this brief introduction summarizes their role in interacting with BigQuery.
 
-Datasets: A dataset is a grouping mechanism that holds zero or more tables. A dataset is the lowest level unit of access control. Datasets are owned by GCP projects. Each dataset can be shared with individual users.
+__Datasets__: A dataset is a grouping mechanism that holds zero or more tables. A dataset is the lowest level unit of access control. Datasets are owned by GCP projects. Each dataset can be shared with individual users.
 
-Tables: A table is a row-column structure that contains actual data. Each table has a schema that describes strongly typed columns of values. Each table belongs to a dataset.
+__Tables__: A table is a row-column structure that contains actual data. Each table has a schema that describes strongly typed columns of values. Each table belongs to a dataset.
 
 ## Objectives
 
@@ -27,10 +27,22 @@ A browser window opens with a dialog box. Paste in the lab credentials provided 
 
 ### Task 2: Load data from Cloud Storage into BigQuery
 
-Create a new dataset within your project using the following command:  
-`bq --location=location mk \
---dataset \
---default_table_expiration integer1 \
---default_partition_expiration integer2 \
---description description \
-project_id:dataset`
+Step 1.  
+Create a new dataset within your project.  
+For __Dataset ID__, type __logdata__.  
+For __Data location__, select the continent closest to the region your project was created in.  
+Use the following command:  
+`bq --location=US mk \
+logdata \
+<project_id>`
+
+Step 2.  
+Create a new table in the __logdata__ called __accesslog__ to store the data from a CSV file stored in Cloud Storage. Use the following command:  
+`bq load --autodetect --source_format=CSV logdata.accesslog gs://cloud-training/gcpfci/access_log.csv`
+
+> To create a Cloud Storage bucket and upload the CSV file, use the following command: `gsutil mb gs://<BUCKET_NAME>` to make a bucket.
+> To upload an object, i.e, the CSV file, into the bucket, use the command:  
+`gsutil cp <OBJECT_LOCATION> gs://<DESTINATION_BUCKET_NAME>`  
+where:  
+OBJECT_LOCATION is the local path to your object. For example, Desktop/dog.png  
+DESTINATION_BUCKET_NAME is the name of the bucket to which you are uploading your object.
