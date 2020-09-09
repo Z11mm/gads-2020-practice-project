@@ -46,3 +46,26 @@ Create a new table in the __logdata__ called __accesslog__ to store the data fro
 where:  
 OBJECT_LOCATION is the local path to your object. For example, Desktop/dog.png  
 DESTINATION_BUCKET_NAME is the name of the bucket to which you are uploading your object.
+
+### Task 3: Perform a query on the data using the BigQuery web UI
+
+Step 1.  
+In this section of the lab, you use the BigQuery web UI to query the accesslog table you created previously. Type the following query:  
+`bq query "select int64_field_6 as hour, count(*) as hitcount from logdata.accesslog group by hour order by hour"`
+
+> Because you told BigQuery to automatically discover the schema when you load the data, the hour of the day during which each web hit arrived is in a field called `int_field_6`.
+
+Step 2.  
+Click __Enter__ and examine the results. At what time of day is the website busiest? When is it least busy?
+
+### Task 4: Perform a query on the data using the bq command
+
+Step 1.  
+In the Cloud Shell, enter this command:  
+`bq query "select string_field_10 as request, count(*) as requestcount from logdata.accesslog group by request order by requestcount desc"`
+
+> The first time you use the `bq` command, it caches your Google Cloud Platform credentials, and then asks you to choose your default project. Choose the project that Qwiklabs assigned you to. Its name will look like __qwiklabs-gcp-__ followed by a hexadecimal number.
+
+The `bq` command then performs the action requested on its command line. What URL offered by this web server was most popular? Which was least popular?
+
+__End of lab!__
