@@ -1,4 +1,4 @@
-# GADS 2020 Practice Project (Cloud Track)
+# GADS 2020 Project (Cloud Track)
 
 This is my submission of the practice project for Phase 2 of the Google Africa Developer Scholarship Program(GADS) 2020. 
 
